@@ -3,29 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet"> 
+  <title>Profile card component</title>
 
  
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <!-- 
+    Psuedo Code
+    The body's background is one image.
 
-  80K
-  Followers
 
-  803K
-  Likes
+   -->
+   <div class="card">
+     <div class="">
+        <img src="images/bg-pattern-card.svg" alt="">
+        <img src="images/image-victor.jpg" alt="">
+     </div>
+     <!-- 
+       The card itself should be a parent since it contains all of the information.
+    Since the card has two separate background colors we have to split it into two
+    different items. 
+  -->
+     <div class="">
+      <h1> Victor Crest  <span>26</span><span>London</span> </h1>
+     
+      
+      
+      
+     </div>
 
-  1.4K
-  Photos
+     <hr>
+
+     <div class="">
+      <p> 80K  <span>Followers</span> </p>
+      <p> 803K  <span>Likes</span> </p>
+      <p> 1.4K  <span>Photos</span></p>
+    </div>
+
+   </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/T000bias">Rodney Foster Jr</a>.
   </div>
 </body>
 </html>
